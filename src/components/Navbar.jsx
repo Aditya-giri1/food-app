@@ -9,7 +9,7 @@ function Navbaar(){
         <li><Link to={"/"}>Home </Link></li>
         <li><Link to={"/About"}>About us up </Link></li>
         <li><Link to={"/Contact"}>Contanc us</Link></li>
-        <li>Cart</li>
+        <li><Link to={"/Cart"}>Cart</Link></li>
         
       </ul>
       <button id="loginbtn" onClick={()=>{
